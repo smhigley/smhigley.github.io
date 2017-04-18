@@ -1,0 +1,38 @@
+/* some style overrides */
+.reveal figure {
+	margin-bottom: 15px;
+}
+.reveal figure img {
+	max-width: 100%;
+}
+
+.reveal h1 {
+	font-size: 3em;
+}
+
+.reveal figcaption {
+	margin-top: -15px;
+	font-size: 0.6em;
+}
+.reveal .attribution {
+	text-align: right;
+}
+
+.reveal .small {
+	font-size: 0.75em;
+}
+
+/* Focus slides */
+.reveal .todomvc-gif {
+	max-width: 70%;
+}
+
+.infinite-tabs {
+	height: 150px;
+	overflow: visible;
+}
+
+.infinite-tabs ~ img {
+	position: relative;
+	float: left;
+}
