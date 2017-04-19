@@ -14,12 +14,18 @@
 	margin-top: -15px;
 	font-size: 0.6em;
 }
+
 .reveal .attribution {
 	text-align: right;
 }
 
+.reveal .footnote {
+	font-size: 0.5em;
+	margin: 0;
+}
+
 .reveal .small {
-	font-size: 0.75em;
+	font-size: 0.7em;
 }
 
 /* Focus slides */
