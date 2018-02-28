@@ -268,6 +268,58 @@
 				</section>
 				<section>
 					<section>
+						<h1>Bonus pattern: skip links</h1>
+						<figure>
+							<img src="assets/skip-links.gif" alt="Skip links example from the New York Times">
+							<figcaption>Finally, a media website used as a good example</figcaption>
+						</figure>
+
+						<aside class="notes">
+							<ul>
+								<li>NY Times has decent overall accessibility. Go them!</li>
+								<li>These links are only accessible from a keyboard, since a cursor-user would never need help skipping over the menu and header</li>
+								<li>Useful for skipping over content present on every page</li>
+							</ul>
+						</aside>
+					</section>
+					<!--<section>
+						<h4 style="margin: 12px 0 10px;">Step 1: Add id's to landmark regions</h4>
+						<code>&lt;nav role="navigation" id="navigation"&gt;</code>
+						<h4 style="margin: 12px 0 10px;">Step 2: Add links</h4>
+						<code>&lt;a href="#navigation" class="skip-link"&gt;Skip to Menu&lt;/a&gt;</code>
+						<h4 style="margin: 12px 0 10px;">Step 3: Styles</h4>
+						<pre style="float: left;width:50%;">
+.skip-link {
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	position: absolute;
+	overflow: hidden;
+	width: 1px;
+}
+						</pre>
+						<pre style="float: right;width:50%;">
+.skip-link:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	position: static;
+	overflow: visible;
+	width: auto;
+}
+						</pre>
+
+						<aside class="notes">
+							<ul>
+								<li>Usually add the skip links to the very top of the DOM</li>
+								<li>Using the HTML5 Boilerplate method of hiding the skip links to preserve SR accessibility</li>
+								<li>The unfocused style is useful for anything else you may want to only provide to SRs</li>
+							</ul>
+						</aside>
+					</section>-->
+				</section>
+				<section>
+					<section>
 						<h1>Focus traps</h1>
 						<figure>
 							<img src="assets/cat-box.jpg" alt="Cat in a box" width="65%">
@@ -362,58 +414,6 @@
 							<p>ARIA is spackle, not rebar. ARIA, role, type, etc. will NOT add any functionality to your onclick handlers</p>
 						</aside>
 					</section>
-				</section>
-				<section>
-					<section>
-						<h1>Bonus pattern: skip links</h1>
-						<figure>
-							<img src="assets/skip-links.gif" alt="Skip links example from the New York Times">
-							<figcaption>Finally, a media website used as a good example</figcaption>
-						</figure>
-
-						<aside class="notes">
-							<ul>
-								<li>NY Times has decent overall accessibility. Go them!</li>
-								<li>These links are only accessible from a keyboard, since a cursor-user would never need help skipping over the menu and header</li>
-								<li>Useful for skipping over content present on every page</li>
-							</ul>
-						</aside>
-					</section>
-					<!--<section>
-						<h4 style="margin: 12px 0 10px;">Step 1: Add id's to landmark regions</h4>
-						<code>&lt;nav role="navigation" id="navigation"&gt;</code>
-						<h4 style="margin: 12px 0 10px;">Step 2: Add links</h4>
-						<code>&lt;a href="#navigation" class="skip-link"&gt;Skip to Menu&lt;/a&gt;</code>
-						<h4 style="margin: 12px 0 10px;">Step 3: Styles</h4>
-						<pre style="float: left;width:50%;">
-.skip-link {
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	position: absolute;
-	overflow: hidden;
-	width: 1px;
-}
-						</pre>
-						<pre style="float: right;width:50%;">
-.skip-link:focus {
-	clip: auto;
-	height: auto;
-	margin: 0;
-	position: static;
-	overflow: visible;
-	width: auto;
-}
-						</pre>
-
-						<aside class="notes">
-							<ul>
-								<li>Usually add the skip links to the very top of the DOM</li>
-								<li>Using the HTML5 Boilerplate method of hiding the skip links to preserve SR accessibility</li>
-								<li>The unfocused style is useful for anything else you may want to only provide to SRs</li>
-							</ul>
-						</aside>
-					</section>-->
 				</section>
 				<section>
 					<section>
